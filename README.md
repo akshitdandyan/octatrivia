@@ -1,6 +1,7 @@
 # A Simple Trivia Quiz Game built with ReactJS
 
 Live deployed at: https://octatrivia.netlify.app/
+Note: Answer to each question will be written in browser console.
 
 ## To run on your machine locally:
 
