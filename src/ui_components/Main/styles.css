@@ -1,0 +1,82 @@
+.main_wrapper{
+    height: calc(100vh - 80px);
+    background: rgb(7, 51, 83);
+    padding: 0px 12px;
+}
+
+.content{
+    text-align: center;
+
+}
+
+.content > div {
+    margin: 24px 0px;
+}
+
+.question_wrapper{
+    font-size: 22px;
+    color: rgb(220, 220, 220);
+}
+
+.inputanswer_wrapper > input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    padding: 6px;
+    font-size: 18px;
+    color: rgb(184, 214, 251);
+}
+
+.inputanswer_wrapper > input::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(251, 251, 251,0.6);
+}
+
+.checkanswer_btn{
+    background: rgb(220, 220, 220);
+    color: rgb(7, 51, 83);
+    width: 160px;
+    margin: 12px auto !important;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 2px solid rgb(220, 220, 220);
+}
+
+.checkanswer_btn:hover{
+    background: transparent;
+    color: rgb(220, 220, 220);
+}
+
+.new_quiz{
+    background: rgb(151, 198, 245);
+    width: 120px;
+    margin: 20px auto !important;
+    border-radius: 4px;
+    padding: 8px 4px;
+    font-size: small;
+    font-weight: bold;
+}
+.loading{
+    color: rgb(226, 226, 226);
+}
+.game_icon{
+    font-size: 40px;
+    margin: 0px 0px !important;
+    transition: 0.2s;
+    animation: rolldice 2s infinite linear
+}
+
+@keyframes rolldice {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
